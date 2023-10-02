@@ -1,0 +1,45 @@
+body {
+    background-color: $whiteColor;
+    color: $primaryTextColor;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* Утиліти */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: Cormorant, sans-serif;
+}
+p {
+    margin: 0;
+}
+
+// .section {
+    
+// }
+
+// .container {
+   
+
+// }
+.title{
+    color: $primaryTextColor;
+    font-size: 40px;
+    font-weight: 700;
+}
+.title span{
+color: $aсcentColor;
+}
+.button {
+    color: $whiteColor;
+    background-color: $aсcentColor;
+    font-size: 18px;
+    font-weight: 500;
+}

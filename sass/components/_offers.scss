@@ -1,0 +1,16 @@
+.offers__name {
+    font-size: 18px;
+    font-weight: 500;
+}
+.offers__price {
+    color: $priceColor;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+.offers__price span {
+    color: $aсcentColor;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
