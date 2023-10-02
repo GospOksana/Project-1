@@ -1,7 +1,16 @@
+.producer__title {
+    margin-bottom: 20px;
+}
 .producer__text {
+    margin-bottom: 40px;
     
     font-weight: 500;
 }
-// .producer__item {
+.producer__list {
+    @extend %list;
 
-// }
+    margin-bottom: 30px;
+}
+.producer__item:not(:last-child) {
+    margin-bottom: 20px;
+}

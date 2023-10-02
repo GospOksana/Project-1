@@ -1,4 +1,10 @@
 @charset "UTF-8";
+.social__list, .producer__list, .offers__list, .auch-nav, .page-nav__list, .gallery__list, .advantages__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
 body {
   background-color: #FFFFFF;
   color: #1F1F1F;
@@ -22,6 +28,15 @@ p {
   margin: 0;
 }
 
+.container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+}
+
 .title {
   color: #1F1F1F;
   font-size: 40px;
@@ -33,15 +48,34 @@ p {
 }
 
 .button {
+  display: inline-block;
+  min-width: 140px;
+  padding: 8px 30px;
+  border-radius: 5px;
   color: #FFFFFF;
   background-color: #FF8126;
   font-size: 18px;
   font-weight: 500;
 }
 
+.advantages__title {
+  margin-bottom: 40px;
+}
+
+.advantages__img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 20px;
+}
+
 .advantages__description {
+  margin-bottom: 10px;
   font-size: 25px;
   font-weight: 700;
+}
+
+.gallery-title {
+  margin-bottom: 40px;
 }
 
 .page-nav__link {
@@ -50,27 +84,44 @@ p {
 }
 
 .hero__title {
+  margin-bottom: 5px;
   font-size: 50px;
   font-weight: 700;
 }
 
 .hero__text {
+  margin-bottom: 50px;
   font-size: 26px;
   font-weight: 300;
 }
 
 .learnmore__title {
+  margin-bottom: 30px;
   color: #FFFFFF;
   font-size: 40px;
   font-weight: 700;
 }
 
+.learnmore__img {
+  margin-bottom: 30px;
+}
+
+.offers__title {
+  margin-bottom: 40px;
+}
+
+.offers__img {
+  margin-bottom: 20px;
+}
+
 .offers__name {
+  margin-bottom: 5px;
   font-size: 18px;
   font-weight: 500;
 }
 
 .offers__price {
+  padding-bottom: 14px;
   color: #656565;
   font-size: 18px;
   font-weight: 400;
@@ -84,10 +135,32 @@ p {
   text-decoration: none;
 }
 
+.producer__title {
+  margin-bottom: 20px;
+}
+
 .producer__text {
+  margin-bottom: 40px;
   font-weight: 500;
 }
 
+.producer__list {
+  margin-bottom: 30px;
+}
+
+.producer__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.social__title {
+  margin-bottom: 40px;
+}
+
+.work__title {
+  margin-bottom: 20px;
+}
+
 .work__text {
+  margin-bottom: 30px;
   font-weight: 500;
 }/*# sourceMappingURL=main.css.map */

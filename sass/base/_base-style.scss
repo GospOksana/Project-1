@@ -25,10 +25,14 @@ p {
     
 // }
 
-// .container {
-   
-
-// }
+.container {
+    max-width: 1200px; 
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid tomato;
+}
 .title{
     color: $primaryTextColor;
     font-size: 40px;
@@ -38,6 +42,11 @@ p {
 color: $aсcentColor;
 }
 .button {
+    display: inline-block;
+    min-width: 140px;
+    padding: 8px 30px;
+    border-radius: 5px;
+
     color: $whiteColor;
     background-color: $aсcentColor;
     font-size: 18px;

@@ -1,0 +1,6 @@
+.gallery-title {
+    margin-bottom: 40px;
+}
+.gallery__list {
+    @extend %list;
+}

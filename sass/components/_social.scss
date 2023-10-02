@@ -1,0 +1,6 @@
+.social__title {
+    margin-bottom: 40px;
+}
+.social__list {
+    @extend %list;
+}

@@ -1,4 +1,17 @@
+.advantages__title {
+    margin-bottom: 40px;
+}
+.advantages__list {
+    @extend %list;
+}
+.advantages__img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 20px;
+}
 .advantages__description {
+    margin-bottom: 10px;
+
     font-size: 25px;
     font-weight: 700;
 }

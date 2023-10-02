@@ -1,8 +1,22 @@
+.offers__title {
+    margin-bottom: 40px;
+}
+.offers__list {
+    @extend %list;
+}
+
+.offers__img {
+    margin-bottom: 20px;
+}
 .offers__name {
+    margin-bottom: 5px;
+
     font-size: 18px;
     font-weight: 500;
 }
 .offers__price {
+    padding-bottom: 14px;
+
     color: $priceColor;
     font-size: 18px;
     font-weight: 400;

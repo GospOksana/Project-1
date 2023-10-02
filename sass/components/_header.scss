@@ -1,4 +1,10 @@
+.page-nav__list {
+    @extend %list;
+}
 .page-nav__link {
     font-size: 15px;
     font-weight: 500;
+}
+.auch-nav {
+    @extend %list;
 }
