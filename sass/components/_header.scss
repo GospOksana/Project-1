@@ -1,10 +1,28 @@
+.main-nav {
+    display: flex;
+    align-items: center
+}
 .page-nav__list {
     @extend %list;
+
+    display: flex;
+    margin-left: 60px;
+}
+.page-nav__item:not(:last-child) {
+    margin-right: 40px;
 }
 .page-nav__link {
+    color: $primaryTextColor;
     font-size: 15px;
     font-weight: 500;
+    text-decoration: none;
 }
 .auch-nav {
     @extend %list;
+
+    display: flex;
+    margin-left: auto;
+}
+.auch-nav__item:not(:last-child) {
+    margin-left: 10px;
 }

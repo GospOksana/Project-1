@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.social__list, .producer__list, .offers__list, .auch-nav, .page-nav__list, .gallery__list, .advantages__list {
+.social__list, .producer__list, .offers__list, .auch-nav, .page-nav__list, .gallery__list, .footer__list, .advantages__list {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -26,6 +26,14 @@ h6 {
 
 p {
   margin: 0;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 80px;
 }
 
 .container {
@@ -74,13 +82,50 @@ p {
   font-weight: 700;
 }
 
+.footer__item {
+  color: #656565;
+}
+
 .gallery-title {
   margin-bottom: 40px;
 }
 
+.main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 60px;
+}
+
+.page-nav__item:not(:last-child) {
+  margin-right: 40px;
+}
+
 .page-nav__link {
+  color: #1F1F1F;
   font-size: 15px;
   font-weight: 500;
+  text-decoration: none;
+}
+
+.auch-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+.auch-nav__item:not(:last-child) {
+  margin-left: 10px;
 }
 
 .hero__title {

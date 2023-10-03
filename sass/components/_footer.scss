@@ -1,0 +1,12 @@
+// .footer__nav {
+ 
+// }
+.footer__list {
+    @extend %list;
+}
+.footer__item {
+    color: $priceColor;
+}
+// .footer__link {
+
+// }
