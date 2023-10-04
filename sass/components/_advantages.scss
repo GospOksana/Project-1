@@ -3,6 +3,13 @@
 }
 .advantages__list {
     @extend %list;
+
+    display: flex;
+    margin: -15px;
+}
+.advantages__item {
+    margin: 15px;
+    width: calc((100% - 5 * 30px) / 5);
 }
 .advantages__img {
     width: 48px;

@@ -3,4 +3,10 @@
 }
 .social__list {
     @extend %list;
+
+    display: flex;
+    justify-content: center;
+}
+.social__item:not(:last-child) {
+    margin-right: 30px;
 }

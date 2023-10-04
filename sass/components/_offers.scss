@@ -3,8 +3,14 @@
 }
 .offers__list {
     @extend %list;
-}
 
+    display: flex;
+    margin: -15px;
+}
+.offers__item {
+    width: calc((100% - 120px) / 4);
+    margin: 15px;
+}
 .offers__img {
     margin-bottom: 20px;
 }
