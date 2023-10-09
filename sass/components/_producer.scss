@@ -14,6 +14,22 @@
 
     margin-bottom: 30px;
 }
+.producer__item {
+    display: flex;
+    align-items: center;
+}
 .producer__item:not(:last-child) {
     margin-bottom: 20px;
+}
+.producer__item::before {
+    content: '';
+    
+    width: 24px;
+    height: 24px;
+    margin-right: 22px;
+    background-color: $aсcentColor;
+    background-image: url('/image/icons/icon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
 }
